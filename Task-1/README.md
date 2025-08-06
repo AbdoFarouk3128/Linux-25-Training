@@ -18,10 +18,7 @@ echo "Hello world"
 ./check.sh
 ```
 - **Note:** Running the check resets the task, but you can run `./solution.sh` to re-run your commands and continue where you left.
-- Finally, submit your solution by running:
-```bash
-./submit
-```
+
 - Verify your submission by visiting your task repo on GitHub and making sure it has been uploaded there.
 
 ## Task Description ✏️

@@ -25,6 +25,7 @@ echo "Hello world"
 - Verify your submission by visiting your task repo on GitHub and making sure it has been uploaded there.
 
 ## Task Description ✏️
+**Before you start task:** Run `bash restart.sh`
 1. You are lost in space and don't know where you are. Use a command to print the current directory path.
 2. Great, after we know our location, we have to know what items and places we can go from where we are. Write the command to show the stuff (files and directories) around us.
 3. Now, let's go through the first gate.

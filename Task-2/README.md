@@ -3,7 +3,7 @@
 
 **Session #2:** Finding, Links, Compression & Archiving
 
-**Deadline:** Saturday 9/8/2025 at 11:59pm
+**Deadline:** Sunday 10/8/2025 at 11:59pm
 
 ---
 

@@ -1,0 +1,15 @@
+FLAG{GHOST_DETECTED_SUCCESSFULLY}
+Stage 1:
+    find data_stream -type f -empty
+    basename data_stream/log_0012.txt > ../stage1_answer.txt
+Stage 2:
+    mkdir tools
+    tar -xzf backups/system_tools.tar.gz -C tools
+Stage 3:
+    bash tools/diagnostics.sh 2> ../stage3_answer.txt
+Stage 4:
+    find asset_links -xtype l
+    basename asset_links/old_config > ../stage4_answer.txt
+Stage 5:
+    bash gohst/system/system_check.sh | grep FLAG
+

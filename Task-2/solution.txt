@@ -1,15 +1,17 @@
-FLAG{GHOST_DETECTED_SUCCESSFULLY}
+FLAG{D4T4_GH0ST_C4UGHT}
 Stage 1:
     find data_stream -type f -empty
-    basename data_stream/log_0012.txt > ../stage1_answer.txt
+    echo dmp_42de12016dfb.bin > stage1_answer.txt
 Stage 2:
-    mkdir tools
-    tar -xzf backups/system_tools.tar.gz -C tools
+    cd backups/
+    tar -xzf system_tools.tar.gz
+    mv diagnostics.sh ../tools/
 Stage 3:
-    bash tools/diagnostics.sh 2> ../stage3_answer.txt
+    cd ../tools/
+    bash diagnostics.sh 2> ../stage3_answer.txt
 Stage 4:
-    find asset_links -xtype l
-    basename asset_links/old_config > ../stage4_answer.txt
+    cd ../asset_links/
+    find . -xtype l
+    echo link_2000.txt > ../stage4_answer.txt
 Stage 5:
-    bash gohst/system/system_check.sh | grep FLAG
-
+    bash system/system_check.sh | grep FLAG

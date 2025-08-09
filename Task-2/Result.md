@@ -1,3 +1,16 @@
+
+---
+# Task Grading Result
+
+- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+
+- **Task:** Task-2
+
+- **Result:** INCORRECT
+
+
+Logs:
+```bash
 Setting up task environment...
 [ERROR] Required directory not found: Ghost
 [SUCCESS] Setup validated. Found solution, and workspace.
@@ -17,11 +30,4 @@ Executing test...
 -------------------------------------
 [INFO] Final Score: 2 / 6
 [ERROR] Task failed. Please review the stages and submission guidelines.
-
----
-# Task Grading Result
-
-**Time of grading:** Sunday, August 10, 2025, 02:04 AM
-**Task:** Task-2
-**Result:** INCORRECT
----
+```

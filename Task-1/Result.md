@@ -1,3 +1,16 @@
+
+---
+# Task Grading Result
+
+- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+
+- **Task:** Task-1
+
+- **Result:** CORRECT
+
+
+Logs:
+```bash
 Setting up task environment...
 Running your solution...
 /home/runner/work/Summer-Taskinator/Summer-Taskinator/student_repos/AbdoFarouk3128/Task-1
@@ -18,11 +31,4 @@ Executing test...
 [✓] Step 7 is correct!
 All steps completed successfully!
 Cleaning up...
-
----
-# Task Grading Result
-
-**Time of grading:** Sunday, August 10, 2025, 02:04 AM
-**Task:** Task-1
-**Result:** CORRECT
----
+```

@@ -15,4 +15,4 @@ Stage 4:
     echo link_2000.txt > ../stage4_answer.txt
 Stage 5:
     cd..
-    bash system/system_check.sh | grep FLAG
+    bash system/system_check.sh | sort

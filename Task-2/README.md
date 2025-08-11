@@ -1,4 +1,3 @@
-
 # Task #2
 
 **Session #2:** Finding, Links, Compression & Archiving
@@ -14,18 +13,18 @@ Task correction is **automatic**. Please follow the guidelines to ensure that yo
 * Navigate into the `Ghost` directory to start the challenge.
 * Complete all **5 stages** of the "Data Ghost" challenge.
 * After completing all stages:
-
   * In `solution.txt` (inside `Task-2`), include:
-
     * The **final flag** discovered in Stage 5.
     * The **exact command(s)** used to solve each stage.
 
 - Finally, submit your solution by running:
 ```bash
-./submit
+./submit.sh # bash submit.sh (if any error occurs)
 ```
 
-### solution.txt Report Format
+**IMPORTANT**: The directory Ghost must remain intact and not be deleted or modified in any way. The task will not be graded if the directory is missing or altered.
+
+### solution.txt Format
 
 Write your report using this Markdown format:
 
@@ -82,12 +81,10 @@ The challenge workspace is the `Ghost` folder. Your first step is to **extract**
 
 #### **Stage 5: Uncover the Final Flag**
 
-* **Goal:** Run this command in the gohst dir `bash system/system_check.sh` to reveal a hidden flag.
-* **Action:** Use a pipeline to print the flag and record it.
+* **Goal:** Run this command `bash system/system_check.sh` in `Ghost` directory to reveal a hidden flag.
+* **Action:** Use a pipeline to print the flag and record it in a new file called `flag.txt` and place it in `Ghost` directory.
 ---
 
 ## Additional Notes
 
 If you accidentally delete the `Ghost` directory or want to restart the task, simply extract `Ghost.tar.gz` again.
-
-

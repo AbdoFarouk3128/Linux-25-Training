@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Friday, August 15, 2025, 01:47 PM
+- **Time of grading:** Sunday, August 17, 2025, 04:53 PM
 
 - **Task:** Task-4
 
@@ -15,10 +15,10 @@ Logs:
 [SUCCESS] Setup complete
 [INFO] Testing part one...
 [INFO] [INFO] Running extract_key.sh with arguments
-[ERROR] Failed to create extracted_<timestamp> folder
+[SUCCESS] Extraction folder created: ./extracted_files
 [INFO] Checking if .tar.xz archive was extracted correctly...
-[ERROR] tar.xz content not found or extraction failed
-[ERROR] Invalid extracted folder name format
+[SUCCESS] tar.xz content extracted and visible
+[SUCCESS] Folder naming format is correct
 [ERROR] Script structure seems incomplete
 
 =========================
@@ -37,9 +37,9 @@ Logs:
 [ERROR] Mixed numbers test failed - Expected: 21, Got: 
 
 =========================
-Tests Passed : 0
-Tests Failed : 12
-Grade        : 0 / 10
+Tests Passed : 3
+Tests Failed : 9
+Grade        : 2 / 10
 =========================
 [INFO] Submission needs improvement
 [INFO] Cleaning up...

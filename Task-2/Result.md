@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 02:16 PM
+- **Time of grading:** Monday, August 18, 2025, 03:29 PM
 
 - **Task:** Task-2
 
@@ -26,6 +26,6 @@ Executing test...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
 -------------------------------------
-[INFO] Final Score: 5 / 8
+[INFO] Final Score: 5 / 6
 [ERROR] Task failed. Please review the stages and submission guidelines.
 ```

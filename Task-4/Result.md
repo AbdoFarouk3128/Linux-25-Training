@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Tuesday, August 19, 2025, 02:38 AM
+- **Time of grading:** Tuesday, August 19, 2025, 02:39 AM
 
 - **Task:** Task-4
 
@@ -15,7 +15,7 @@ Logs:
 [SUCCESS] Setup complete
 [INFO] Testing part one...
 [INFO] [INFO] Running extract_key.sh with arguments
-/media/hadeer/Data/OSC/Taskinator/correctTask4/Task-4/task_4_test.sh: line 57: ./extract_key.sh: cannot execute: required file not found
+/home/runner/work/Summer-Taskinator/Summer-Taskinator/Task-4/task_4_test.sh: line 57: ./extract_key.sh: cannot execute: required file not found
 [ERROR] Failed to create extracted_<timestamp> folder
 [INFO] Checking if .tar.xz archive was extracted correctly...
 [ERROR] tar.xz content not found or extraction failed

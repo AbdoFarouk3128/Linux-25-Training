@@ -3,20 +3,20 @@
 # Script to automatically upload task
 # This will submit the task in the folder it was executed in
 
-test_file="check.sh"
+test_file="test.sh"
 
 # Run the test script if provided with the task
 run_test() {
 	echo "Running test script..."
 	./"$test_file"
 	if [ $? != 0 ]; then
-		echo "Test failed. Do you still want to submit? (y/N)"
+		echo "Test failed. Do you still want to submit? (y\N)"
 		read -s -n1 choice
-		if  [ $choice == 'y' ] || [ $choice == 'Y' ]; then
-			echo "Continuing..."
-		else
+		if ! [ $choice == 'y' ] || [ $choice == 'Y' ]; then
 			echo "Exiting without submitting task..."
 			exit 0
+		else
+			echo "Continuing..."
 		fi
 	fi
 }
@@ -29,14 +29,11 @@ upload_task () {
 		exit 1
 	fi
 	if [ "$(git status -s | wc -l )" != 0 ]; then
-		git add . > /dev/null 
-		git commit -m "Task submission." &> /dev/null 
-		git push > /dev/null || return 1
+		sudo git add . 
+		git commit -m "Task submission." 
+		git push 
 		echo "Task submitted successfully!"
 
-	elif [ "$(git rev-list --count @{u}..HEAD 2>/dev/null)" -gt 0 ]; then		git push > /dev/null || return 1
-		# unpushed commits exist
-		git push
 	else
 		echo "No changes since last push."
 	fi
@@ -44,13 +41,7 @@ upload_task () {
 }
 
 # Main
-echo "[1/3] Fetching changes..."
-git pull > /dev/null || exit 2
 if [ -f "$test_file" ]; then
-echo "[2/3] Testing..."
 	run_test
 fi
-echo "[3/3] Uploading task..."
-
-upload_task || echo "Error in upload, please message support"
-
+upload_task

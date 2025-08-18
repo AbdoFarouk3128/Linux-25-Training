@@ -29,7 +29,7 @@ upload_task () {
 		exit 1
 	fi
 	if [ "$(git status -s | wc -l )" != 0 ]; then
-		git add . 
+		sudo git add . 
 		git commit -m "Task submission." 
 		git push 
 		echo "Task submitted successfully!"

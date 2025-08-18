@@ -2,6 +2,19 @@
 ---
 # Task Grading Result
 
+- **Time of grading:** Monday, August 18, 2025, 09:30 PM
+
+- **Task:** Task-3
+
+- **Result:** CORRECT
+
+
+Logs:
+```bash
+
+---
+# Task Grading Result
+
 - **Time of grading:** Monday, August 18, 2025, 07:25 PM
 
 - **Task:** Task-3
@@ -31,4 +44,5 @@ Running student solution with command filtering...
 Executing test...
 [OK] All checks passed
 Cleaning up...
+```
 ```

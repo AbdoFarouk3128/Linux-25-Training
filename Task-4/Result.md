@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Tuesday, August 19, 2025, 11:33 PM
+- **Time of grading:** Tuesday, August 19, 2025, 11:51 PM
 
 - **Task:** Task-4
 
@@ -15,27 +15,7 @@ Logs:
 [SUCCESS] Setup complete
 [INFO] Testing part one...
 [INFO] [INFO] Running extract_key.sh with arguments
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [adham9200]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [5/Linux-2]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [5-Trainin]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [g|ghs_msd]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [dvtl8GZbd]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [qpQlRYa8q]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [M1KtEqImb]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [2xE8PU|ht]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [tps://git]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [hub.com/a]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [dham92005]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [/Linux-25]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [-Training]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [.git]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [MariamAbo]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [ELHassan/]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [Linux-25-]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [Training|]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [ghs_X9iem]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [wfaRo0Ia9]
-replace extracted_files/file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: Extraction completed successfully into: extracted_files/
+Extraction completed successfully into: extracted_files/
 [SUCCESS] Extraction folder created: ./extracted_files
 [INFO] Checking if .tar.xz archive was extracted correctly...
 [SUCCESS] tar.xz content extracted and visible

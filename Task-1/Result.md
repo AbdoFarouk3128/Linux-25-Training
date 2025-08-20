@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Wednesday, August 20, 2025, 05:00 PM
+- **Time of grading:** Wednesday, August 20, 2025, 05:59 PM
 
 - **Task:** Task-1
 

@@ -2,11 +2,11 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Thursday, August 21, 2025, 08:54 PM
+- **Time of grading:** Sunday, August 24, 2025, 02:16 PM
 
 - **Task:** Task-1
 
-- **Result:** CORRECT
+- **Result:** INCORRECT
 
 
 Logs:
@@ -29,6 +29,6 @@ Executing test...
 [✓] Step 5 is correct!
 [✓] Step 6 is correct!
 [✓] Step 7 is correct!
-All steps completed successfully!
+Not all steps were completed! Solve the errors and try again.
 Cleaning up...
 ```
